@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_application_1/pakages/image_page.dart';
+
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text("DAY 1")),
-        body: Center(child: Text("flutter 30 days challenge")),
-      ),
-    ),
-  );
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "flutter 30 days chalenge",
+      home: ImagePage(),
+    );
+  }
 }
