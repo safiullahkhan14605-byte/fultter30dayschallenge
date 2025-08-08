@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application_1/pakages/image_page.dart';
+import 'package:flutter_application_1/pakages/login_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "flutter 30 days chalenge",
-      home: ImagePage(),
+      home: LoginPage(Image.asset("assets/login.JPEG")),
     );
   }
 }

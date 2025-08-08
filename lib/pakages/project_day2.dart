@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class ImagePage extends StatelessWidget {
-  const ImagePage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +17,7 @@ class ImagePage extends StatelessWidget {
             color: const Color.fromARGB(255, 147, 249, 3),
             borderRadius: BorderRadius.circular(20),
           ),
-          child: Image.asset("assets/bird.png"),
+          child: Image.asset("assets/login.jpg"),
         ),
       ),
     );
